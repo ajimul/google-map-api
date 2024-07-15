@@ -26,3 +26,21 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 # google-map-api
+
+# CLI/Dependency
+1). ng new google-map-api
+      This command creates a new Angular project named "google-map-api".
+      It will prompt you to choose options like routing and stylesheet format.
+2). npm install @googlemaps/js-api-loader
+      This installs the Google Maps JavaScript API loader package.
+      It allows you to load the Google Maps API dynamically in your Angular application.
+3). npm install @types/google.maps --save-dev
+      This installs TypeScript type definitions for Google Maps.
+      The --save-dev flag saves it as a development dependency.
+4). ng generate environments
+      This generates environment files for your Angular project.
+      It creates environment.ts and environment.prod.ts in the src/environments/ directory.
+5). ng g s autocomplete-address
+    This is shorthand for ng generate service autocomplete-address.
+    It creates a new service named "autocomplete-address" in your Angular project.
+
